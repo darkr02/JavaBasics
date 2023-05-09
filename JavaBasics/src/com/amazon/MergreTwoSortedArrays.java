@@ -1,7 +1,7 @@
 package com.amazon;
 
 
-
+//Merge two sorted arrays
 public class MergreTwoSortedArrays {
 
 	public static void main(String[] args) {
