@@ -12,6 +12,7 @@ public class MergreTwoSortedArrays {
 		mergeArray(arr1,arr2,arr1.length,arr2.length);
 	}
 
+	//MergeArray Function
 	public static void mergeArray(long[] arr1, long[] arr2, int n, int m) {
 		int i =0, j=0,k=0;
 		long[] arr3 = new long[n+m];
