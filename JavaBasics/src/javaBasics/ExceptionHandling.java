@@ -24,10 +24,14 @@ public class ExceptionHandling {
 		{
 			System.out.println("ArrayIndexOutOfBoundsException");
 		}
-		catch(Exception e)
+		catch(NullPointerException e)
+		{
+			System.out.println("Something went wrong");
+		}catch(Exception e)
 		{
 			System.out.println("Something went wrong");
 		}
+		
 		finally
 		{
 			System.out.println("Bye");

@@ -33,7 +33,8 @@ public class SuperDemo {
 
 		Child obj1 = new Child();
 		Child obj2 = new Child(1);
-		
+		//Parent pObj = new Parent();
+		//Parent pObj1 = new Parent(2);
 	}
 
 }

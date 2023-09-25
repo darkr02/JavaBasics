@@ -16,7 +16,7 @@ public class CalculateExecutionTime {
 		}
 		long endTime = System.currentTimeMillis();
 		
-		System.out.println("Total Execution Time: " + (endTime-startTime));
+		System.out.println("Total Execution Time in millis: " + (endTime-startTime));
 	}
 
 }
