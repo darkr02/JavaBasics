@@ -13,6 +13,7 @@ public class AnonymousInnerClass {
 
 		E obj1 = new E()
 		{
+			@Override
 			public void show()
 			{
 				System.out.println("In new Show");

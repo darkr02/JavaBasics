@@ -1,7 +1,7 @@
 package javaBasics;
 
 
-class outer
+class Outer
 {
 	
 	int a;
@@ -10,7 +10,7 @@ class outer
 		
 	}
 	
-	static  class  inner
+	static  class  Inner
 	{
 		public void display()
 		{
@@ -18,9 +18,9 @@ class outer
 		}
 	}
 	
-	class  inner2
+	class  Inner2
 	{
-		public void display1()
+		public void display()
 		{
 			System.out.println("Inner 2 Display");
 		}
@@ -31,11 +31,11 @@ public class InnerDemo {
 
 	public static void main(String[] args) {
 
-		outer obj1 = new outer();
-		outer.inner obj2 = new outer.inner();
-		outer.inner2 obj3 = obj1.new inner2();
+		Outer obj1 = new Outer();
+		Outer.Inner obj2 = new Outer.Inner();
+		Outer.Inner2 obj3 = obj1.new Inner2();
 		obj2.display();
-		obj3.display1();
+		obj3.display();
 	}
 
 }

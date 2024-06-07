@@ -18,12 +18,12 @@ public class VariableLengthArguments {
 				num[i]= sc.nextInt();
 			}
 			System.out.println("Array Values are: ");
-			for (int j:num)
-			{
-				System.out.print(j);
-				System.out.print(",");
-				
-			}
+			System.out.println(Arrays.toString(num));
+			/*
+			 * for (int j:num) { System.out.print(j); System.out.print(",");
+			 * 
+			 * }
+			 */			
 			System.out.println();
 			System.out.println("Sum of all the numbers is: "+Calc2.add(num)); 
 			sc.close();

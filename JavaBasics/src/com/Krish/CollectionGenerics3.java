@@ -43,7 +43,7 @@ class Student2 implements Comparable<Student2>
 	@Override
 	public int compareTo(Student2 s) {
 
-		return this.marks<s.marks?1:-1;
+		return this.marks>s.marks?1:-1;
 	}
 	
 	

@@ -23,8 +23,8 @@ public class RemoveDuplicatesFromArray {
 		int index = 1;
 		for ( int i =1; i<arr1.length;i++)
 		{
-			System.out.println(index);
-			System.out.println(i);
+//			System.out.println(index);
+//			System.out.println(i);
 			if (arr1[i]!=arr1[index-1])
 			{
 				arr1[index++] = arr1[i];
@@ -37,15 +37,16 @@ public class RemoveDuplicatesFromArray {
 	public static void main(String[] args) {
 		
 		int[] arr  = {1,3,5,5,6,6,7,8,9,9,10};
-		System.out.println("Length of the array is: "+arr.length);
+//		System.out.println("Length of the array is: "+arr.length);
 		System.out.println("array is: "+Arrays.toString(arr));
 		int lenAfterDuplicateRemove = removeDuplicate(arr);
 		
 		System.out.println("Length of the array is: "+lenAfterDuplicateRemove);
 		for (int i =0; i<lenAfterDuplicateRemove;i++)
 		{
-			System.out.println(arr[i]);
+			//System.out.println(arr[i]);
 		}
+		System.out.println("array is: "+Arrays.toString(arr));
 	}
 
 }

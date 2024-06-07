@@ -22,7 +22,7 @@ public class ArrayVsArrayList {
 
 		for (int i=0;i<array1.length;i++)
 		{
-			System.out.println(array[i]);
+			System.out.println(array1[i]);
 		}
 		System.out.println(array1.length);
 		for (Object s:array1)

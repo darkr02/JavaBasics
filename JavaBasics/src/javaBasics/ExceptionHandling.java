@@ -27,7 +27,11 @@ public class ExceptionHandling {
 		catch(NullPointerException e)
 		{
 			System.out.println("Something went wrong");
-		}catch(Exception e)
+		}
+		/*
+		 * catch(WebDriverException e) { System.out.println("Something went wrong"); }
+		 */
+		catch(Exception e)
 		{
 			System.out.println("Something went wrong");
 		}
